@@ -1,3 +1,110 @@
 .front {
 width: 400px;
 }
+
+.mainp {
+    grid-column: 2 / 3;
+    background-color: #e5b502;
+}
+
+.frontdescr {
+    grid-column: 2 / 3;
+}
+
+.mainpic, .sidepic {
+    width: 300px;
+}
+
+.drinkpic {
+    width: 200px;
+}
+
+#container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 50px 100px;
+}
+
+@font-face {
+    font-family: 'energy';
+    src: url(LTEnergy-Regular.otf) format("otf");
+}
+
+#container {
+    font-family: "energy";
+    padding-top: 50px;
+}
+
+h1, h2, p {
+    color: #e5b502;
+}
+
+p {
+    font-size: 25px;
+}
+
+.maindiv {
+    padding-left: 100px;
+    padding-right: 150px;
+}
+
+.sidediv {
+    padding-right: 100px;
+}
+
+.drinkdiv {
+    padding-left: 100px;
+}
+
+.contdiv {
+    grid-column:  2 / 3;
+    row-gap: 100px;
+    color: #e5b502;
+}
+
+@font-face {
+    font-family: 'bold-font';
+    src: url(THEBOLDFONT.ttf);
+}
+
+#header {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    color: #e5b502;
+    font-family: 'bold-font';
+}
+
+#title {
+    margin-left: 75px;
+}
+
+* {
+    background-color: #5e260f;
+}
+
+button {
+    background-color: #7e0800;
+    color: #e5b502;
+    font-size: 30px;
+    border-radius: 10px;
+}
+
+#buttons {
+    width: 50px;
+    grid-column: 2 / 3;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+}
+
+.home {
+
+}
+
+.menu {
+
+}
+
+.contact {
+
+}
